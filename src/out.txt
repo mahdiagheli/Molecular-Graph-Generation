@@ -1,0 +1,192 @@
+Epoch 1: 100%|████████████████████████████████████████████████████| 3119/3119 [03:37<00:00, 14.33it/s, adj=1.0651, edge=1.0651, glob=1.0124, kl=0.7499, loss=4.0402, node=0.8227] 
+
+Epoch 1
+Train | loss=4.4971 node=1.2810 adj=1.0906 edge=1.0465 global=0.9372 kl=1.4184
+Test  | loss=3.8616 node=0.9613 adj=0.9936 edge=0.9994 global=0.7597 kl=1.4761
+Epoch 2: 100%|████████████████████████████████████████████████████| 3119/3119 [03:29<00:00, 14.90it/s, adj=0.9573, edge=0.9797, glob=0.6343, kl=1.2909, loss=3.6972, node=0.9968]
+
+Epoch 2
+Train | loss=3.8738 node=1.0130 adj=1.0019 edge=1.0019 global=0.7152 kl=1.4177
+Test  | loss=3.6937 node=0.9518 adj=0.9914 edge=0.9975 global=0.6121 kl=1.4081
+Epoch 3: 100%|████████████████████████████████████████████████████| 3119/3119 [03:31<00:00, 14.74it/s, adj=0.9507, edge=0.9460, glob=0.8531, kl=2.0735, loss=4.0179, node=1.0607]
+
+Epoch 3
+Train | loss=3.7668 node=0.9848 adj=0.9977 edge=1.0004 global=0.6377 kl=1.4631
+Test  | loss=3.5908 node=0.9493 adj=0.9905 edge=0.9985 global=0.4846 kl=1.6776
+Epoch 4: 100%|████████████████████████████████████████████████████| 3119/3119 [03:30<00:00, 14.84it/s, adj=1.0433, edge=1.0275, glob=0.5203, kl=2.0209, loss=3.4169, node=0.6237] 
+
+Epoch 4
+Train | loss=3.6696 node=0.9750 adj=0.9959 edge=1.0006 global=0.5353 kl=1.6278
+Test  | loss=3.5173 node=0.9499 adj=0.9894 edge=0.9985 global=0.3736 kl=2.0586
+Epoch 5: 100%|████████████████████████████████████████████████████| 3119/3119 [03:28<00:00, 14.96it/s, adj=1.0905, edge=1.0842, glob=0.8699, kl=2.3332, loss=4.7757, node=1.4978] 
+
+Epoch 5
+Train | loss=3.6217 node=0.9686 adj=0.9948 edge=0.9995 global=0.4681 kl=1.9058
+Test  | loss=3.5034 node=0.9487 adj=0.9890 edge=0.9973 global=0.3811 kl=1.8721
+
+--- Sampling molecule at epoch 5 ---
+[22:53:49] Explicit valence for atom # 37 He, 2, is greater than permitted
+AtomValenceException
+Epoch 6: 100%|████████████████████████████████████████████████████| 3119/3119 [03:27<00:00, 15.03it/s, adj=1.1081, edge=1.0520, glob=0.6965, kl=2.1733, loss=3.8670, node=0.7931] 
+
+Epoch 6
+Train | loss=3.5988 node=0.9633 adj=0.9942 edge=0.9987 global=0.4444 kl=1.9823
+Test  | loss=3.4808 node=0.9485 adj=0.9889 edge=0.9976 global=0.3433 kl=2.0252
+Epoch 7: 100%|████████████████████████████████████████████████████| 3119/3119 [03:27<00:00, 15.01it/s, adj=1.0355, edge=1.0910, glob=0.4434, kl=2.1019, loss=4.5010, node=1.7208] 
+
+Epoch 7
+Train | loss=3.5508 node=0.9596 adj=0.9939 edge=0.9980 global=0.3764 kl=2.2286
+Test  | loss=3.4237 node=0.9483 adj=0.9887 edge=0.9960 global=0.2549 kl=2.3592
+Model saved.
+Epoch 8: 100%|████████████████████████████████████████████████████| 3119/3119 [03:28<00:00, 14.95it/s, adj=1.1489, edge=1.1256, glob=0.2663, kl=2.3591, loss=3.6015, node=0.8249] 
+
+Epoch 8
+Train | loss=3.5250 node=0.9562 adj=0.9938 edge=0.9977 global=0.3422 kl=2.3516
+Test  | loss=3.4394 node=0.9476 adj=0.9885 edge=0.9969 global=0.2624 kl=2.4389
+Model saved.
+Epoch 9: 100%|████████████████████████████████████████████████████| 3119/3119 [03:30<00:00, 14.83it/s, adj=0.8975, edge=0.9679, glob=0.3008, kl=2.3530, loss=3.9105, node=1.5090] 
+
+Epoch 9
+Train | loss=3.5128 node=0.9533 adj=0.9934 edge=0.9974 global=0.3297 kl=2.3899
+Test  | loss=3.4137 node=0.9476 adj=0.9884 edge=0.9960 global=0.2355 kl=2.4621
+Model saved.
+Epoch 10: 100%|███████████████████████████████████████████████████| 3119/3119 [03:28<00:00, 14.97it/s, adj=0.9286, edge=0.8951, glob=0.4300, kl=3.2558, loss=3.5615, node=0.9822] 
+
+Epoch 10
+Train | loss=3.5039 node=0.9507 adj=0.9931 edge=0.9970 global=0.3222 kl=2.4095
+Test  | loss=3.4114 node=0.9475 adj=0.9886 edge=0.9960 global=0.2357 kl=2.4352
+Model saved.
+
+--- Sampling molecule at epoch 10 ---
+Molecule saved.
+Epoch 11: 100%|███████████████████████████████████████████████████| 3119/3119 [03:26<00:00, 15.13it/s, adj=1.0078, edge=0.9513, glob=0.8519, kl=2.3643, loss=3.5787, node=0.5314]
+
+Epoch 11
+Train | loss=3.4981 node=0.9483 adj=0.9929 edge=0.9969 global=0.3188 kl=2.4134
+Test  | loss=3.4120 node=0.9470 adj=0.9885 edge=0.9963 global=0.2448 kl=2.3541
+Model saved.
+Epoch 12: 100%|███████████████████████████████████████████████████| 3119/3119 [03:26<00:00, 15.07it/s, adj=0.9486, edge=0.9459, glob=1.1314, kl=2.5116, loss=3.8507, node=0.5735] 
+
+Epoch 12
+Train | loss=3.4912 node=0.9466 adj=0.9926 edge=0.9966 global=0.3131 kl=2.4230
+Test  | loss=3.4179 node=0.9468 adj=0.9882 edge=0.9957 global=0.2428 kl=2.4440
+Model saved.
+Epoch 13: 100%|███████████████████████████████████████████████████| 3119/3119 [03:27<00:00, 15.06it/s, adj=0.9782, edge=0.9595, glob=0.2829, kl=2.5409, loss=3.0304, node=0.5557] 
+
+Epoch 13
+Train | loss=3.4886 node=0.9451 adj=0.9924 edge=0.9966 global=0.3118 kl=2.4269
+Test  | loss=3.4100 node=0.9467 adj=0.9885 edge=0.9955 global=0.2410 kl=2.3828
+Model saved.
+Epoch 14: 100%|███████████████████████████████████████████████████| 3119/3119 [03:27<00:00, 15.04it/s, adj=1.0823, edge=1.0769, glob=0.3813, kl=2.3581, loss=3.5712, node=0.7949] 
+
+Epoch 14
+Train | loss=3.4846 node=0.9439 adj=0.9922 edge=0.9964 global=0.3083 kl=2.4369
+Test  | loss=3.3992 node=0.9470 adj=0.9882 edge=0.9954 global=0.2233 kl=2.4520
+Model saved.
+Epoch 15: 100%|███████████████████████████████████████████████████| 3119/3119 [03:26<00:00, 15.08it/s, adj=1.0298, edge=1.0733, glob=0.5720, kl=2.2459, loss=4.2409, node=1.3412] 
+
+Epoch 15
+Train | loss=3.4822 node=0.9432 adj=0.9920 edge=0.9963 global=0.3062 kl=2.4455
+Test  | loss=3.3977 node=0.9464 adj=0.9882 edge=0.9950 global=0.2199 kl=2.4826
+Model saved.
+
+--- Sampling molecule at epoch 15 ---
+Molecule saved.
+Epoch 16: 100%|███████████████████████████████████████████████████| 3119/3119 [03:27<00:00, 15.06it/s, adj=1.0416, edge=1.0582, glob=0.2047, kl=2.7082, loss=3.3680, node=0.7927] 
+
+Epoch 16
+Train | loss=3.4785 node=0.9420 adj=0.9918 edge=0.9962 global=0.3031 kl=2.4537
+Test  | loss=3.3976 node=0.9461 adj=0.9881 edge=0.9951 global=0.2275 kl=2.4082
+Model saved.
+Epoch 17: 100%|███████████████████████████████████████████████████| 3119/3119 [03:27<00:00, 15.00it/s, adj=0.8959, edge=0.8852, glob=0.3779, kl=2.0696, loss=3.3335, node=0.9675] 
+
+Epoch 17
+Train | loss=3.4753 node=0.9413 adj=0.9916 edge=0.9960 global=0.3017 kl=2.4467
+Test  | loss=3.3987 node=0.9462 adj=0.9883 edge=0.9951 global=0.2342 kl=2.3496
+Model saved.
+Epoch 18: 100%|███████████████████████████████████████████████████| 3119/3119 [03:28<00:00, 14.93it/s, adj=0.9897, edge=0.9403, glob=0.8985, kl=3.5716, loss=4.6991, node=1.5134] 
+
+Epoch 18
+Train | loss=3.4734 node=0.9410 adj=0.9914 edge=0.9960 global=0.2993 kl=2.4568
+Test  | loss=3.4221 node=0.9466 adj=0.9884 edge=0.9958 global=0.2468 kl=2.4438
+Model saved.
+Epoch 19: 100%|███████████████████████████████████████████████████| 3119/3119 [03:31<00:00, 14.75it/s, adj=1.0291, edge=0.9956, glob=0.3255, kl=2.5267, loss=3.7261, node=1.1232] 
+
+Epoch 19
+Train | loss=3.4728 node=0.9403 adj=0.9913 edge=0.9959 global=0.2989 kl=2.4637
+Test  | loss=3.4013 node=0.9462 adj=0.9881 edge=0.9950 global=0.2267 kl=2.4523
+Model saved.
+Epoch 20: 100%|███████████████████████████████████████████████████| 3119/3119 [03:29<00:00, 14.88it/s, adj=0.9555, edge=0.8854, glob=0.3516, kl=2.4394, loss=2.9074, node=0.4708] 
+
+Epoch 20
+Train | loss=3.4707 node=0.9396 adj=0.9911 edge=0.9958 global=0.2984 kl=2.4579
+Test  | loss=3.3948 node=0.9463 adj=0.9881 edge=0.9950 global=0.2096 kl=2.5580
+Model saved.
+
+--- Sampling molecule at epoch 20 ---
+Molecule saved.
+Epoch 21: 100%|███████████████████████████████████████████████████| 3119/3119 [03:27<00:00, 15.06it/s, adj=1.0472, edge=0.9967, glob=0.3417, kl=2.3476, loss=3.3293, node=0.7089] 
+
+Epoch 21
+Train | loss=3.4700 node=0.9393 adj=0.9910 edge=0.9958 global=0.2972 kl=2.4662
+Test  | loss=3.3935 node=0.9462 adj=0.9882 edge=0.9950 global=0.2105 kl=2.5371
+Model saved.
+Epoch 22: 100%|███████████████████████████████████████████████████| 3119/3119 [03:29<00:00, 14.92it/s, adj=1.0409, edge=1.0265, glob=0.2844, kl=2.1283, loss=3.3534, node=0.7887] 
+
+Epoch 22
+Train | loss=3.4696 node=0.9392 adj=0.9909 edge=0.9958 global=0.2970 kl=2.4674
+Test  | loss=3.3944 node=0.9461 adj=0.9880 edge=0.9950 global=0.2140 kl=2.5118
+Model saved.
+Epoch 23: 100%|███████████████████████████████████████████████████| 3119/3119 [03:29<00:00, 14.87it/s, adj=0.9450, edge=0.9287, glob=0.1872, kl=2.1926, loss=3.4052, node=1.1251] 
+
+Epoch 23
+Train | loss=3.4675 node=0.9390 adj=0.9908 edge=0.9957 global=0.2955 kl=2.4657
+Test  | loss=3.3907 node=0.9461 adj=0.9881 edge=0.9949 global=0.2241 kl=2.3750
+Model saved.
+Epoch 24: 100%|███████████████████████████████████████████████████| 3119/3119 [03:29<00:00, 14.89it/s, adj=1.0373, edge=0.9987, glob=0.2828, kl=2.3377, loss=3.3019, node=0.7493] 
+
+Epoch 24
+Train | loss=3.4660 node=0.9386 adj=0.9907 edge=0.9957 global=0.2943 kl=2.4684
+Test  | loss=3.3956 node=0.9463 adj=0.9885 edge=0.9951 global=0.2259 kl=2.3980
+Model saved.
+Epoch 25: 100%|███████████████████████████████████████████████████| 3119/3119 [03:28<00:00, 14.96it/s, adj=0.9217, edge=0.9349, glob=0.5117, kl=2.8811, loss=4.0743, node=1.4179] 
+
+Epoch 25
+Train | loss=3.4645 node=0.9386 adj=0.9905 edge=0.9956 global=0.2934 kl=2.4639
+Test  | loss=3.3963 node=0.9460 adj=0.9880 edge=0.9949 global=0.2225 kl=2.4493
+Model saved.
+
+--- Sampling molecule at epoch 25 ---
+Molecule saved.
+Epoch 26: 100%|███████████████████████████████████████████████████| 3119/3119 [03:26<00:00, 15.12it/s, adj=0.9571, edge=0.9463, glob=0.2333, kl=2.8344, loss=4.0217, node=1.6017] 
+
+Epoch 26
+Train | loss=3.4640 node=0.9385 adj=0.9905 edge=0.9956 global=0.2927 kl=2.4671
+Test  | loss=3.3972 node=0.9460 adj=0.9881 edge=0.9950 global=0.2274 kl=2.4065
+Model saved.
+Epoch 27: 100%|███████████████████████████████████████████████████| 3119/3119 [03:26<00:00, 15.10it/s, adj=0.9495, edge=0.9553, glob=0.4457, kl=2.2851, loss=3.0984, node=0.5193] 
+
+Epoch 27
+Train | loss=3.4626 node=0.9381 adj=0.9903 edge=0.9955 global=0.2915 kl=2.4719
+Test  | loss=3.3918 node=0.9461 adj=0.9880 edge=0.9951 global=0.2137 kl=2.4892
+Model saved.
+Epoch 28: 100%|███████████████████████████████████████████████████| 3119/3119 [03:28<00:00, 14.96it/s, adj=0.8550, edge=0.8623, glob=0.3386, kl=2.7276, loss=3.0266, node=0.6979] 
+
+Epoch 28
+Train | loss=3.4608 node=0.9380 adj=0.9902 edge=0.9954 global=0.2900 kl=2.4714
+Test  | loss=3.3968 node=0.9462 adj=0.9882 edge=0.9950 global=0.2187 kl=2.4874
+Model saved.
+Epoch 29: 100%|███████████████████████████████████████████████████| 3119/3119 [03:29<00:00, 14.91it/s, adj=1.0685, edge=1.0303, glob=0.3240, kl=2.1990, loss=3.3443, node=0.7016] 
+
+Epoch 29
+Train | loss=3.4626 node=0.9379 adj=0.9902 edge=0.9955 global=0.2919 kl=2.4717
+Test  | loss=3.3918 node=0.9460 adj=0.9879 edge=0.9948 global=0.2108 kl=2.5226
+Epoch 30: 100%|███████████████████████████████████████████████████| 3119/3119 [03:28<00:00, 14.94it/s, adj=1.0334, edge=1.0193, glob=0.4642, kl=2.6152, loss=3.8307, node=1.0524] 
+
+Epoch 30
+Train | loss=3.4615 node=0.9378 adj=0.9901 edge=0.9955 global=0.2903 kl=2.4772
+Test  | loss=3.3994 node=0.9461 adj=0.9881 edge=0.9949 global=0.2280 kl=2.4224
+
+--- Sampling molecule at epoch 30 ---
+[00:27:12] Explicit valence for atom # 37 H, 3, is greater than permitted
+AtomValenceException

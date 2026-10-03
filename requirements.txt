@@ -1,0 +1,10 @@
+torch==2.9.1
+numpy==2.2.6
+pandas==2.3.3
+pandas-ta==0.4.71b0
+rdkit==2025.9.3
+scikit-learn==1.7.2
+matplotlib==3.10.7
+tqdm==4.67.1
+jupyter
+ipykernel==7.1.0
